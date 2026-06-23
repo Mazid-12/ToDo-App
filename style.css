@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-card {
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: green;
+    height: 75vh;
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#input-part{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#button, input{
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#button{
+    cursor: pointer;
+    background-color: bisque;
+    transition: 0.3s background-color;
+}
+
+#button:hover{
+    background-color: rgb(226, 156, 71);
+}
+
+#checkbox{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+#task{
+    font-size: 20px;
+    color: white;
+}
